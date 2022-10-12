@@ -1,0 +1,14 @@
+Source: lsdvd
+Section: utils
+Priority: optional
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9), autotools-dev, libdvdread-dev
+Homepage: http://sourceforge.net/projects/lsdvd/
+
+Package: lsdvd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: read the content info of a DVD
+ An application for reading the contents of a DVD and printing the contents
+ to your terminal or in more machine readable formats.
